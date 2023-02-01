@@ -1,5 +1,5 @@
 {
-    "name": "pavlyuts/csv-objects",
+    "name": "pavlyuts/php-csv-objects",
     "description": "Handle CSV complex multi-string objects",
     "type": "library",
     "license": "GPL-2.0-or-later",
