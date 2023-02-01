@@ -1,0 +1,31 @@
+{
+    "name": "pavlyuts/csv-objects",
+    "description": "Handle CSV complex multi-string objects",
+    "type": "library",
+    "license": "GPL-2.0-or-later",
+    "keywords": ["csv", "import", "export", "multistring"],
+    "require": {
+        "league/csv": "^9.0",
+        "pavlyuts/php-string-key-arrays": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "authors": [
+        {
+            "name": "Alexey Pavlyuts",
+            "email": "alexey@pavlyuts.ru",
+            "homepage": "https://pavlyuts.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "CSVObjects\\": "CSVObjects"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "CSVTests\\": "Tests"
+        }
+    }
+}
