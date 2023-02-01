@@ -1,0 +1,10 @@
+Invoice Nr,Date,Date due,Customer Id,Customer name,Rows,Row,Item Code,Item,Price,Quantity,Total
+586,2022-10-11,2022-11-11,543,Acme Inc.,3,1,386,Incredible Machine,125,3,375
+586,2022-10-11,2022-11-11,543,Acme Inc.,3,2,328,Green baloon,5,12,60
+586,2022-10-11,2022-11-11,543,Acme Inc.,3,3,542,Dream recorder,1250,1,1250
+498,2022-05-12,2022-06-12,324,Gandalf the Grey,2,1,124,Majic ball,7876,1,7876
+498,2022-05-12,2022-06-12,324,Gandalf the Grey,2,2,496,Gray hat,150,1,150
+G-345,2022-03-07,2022-04-07,Fro-1,Froddo Baggins,3,1,666,Ring of power,0,1,0
+G-345,2022-03-07,2022-04-07,Fro-1,Froddo Baggins,3,2,542,Dream recorder,1250,1,1250
+G-345,2022-03-07,2022-04-07,Fro-1,Froddo Baggins,3,3,387,Travel bag,40,1,40
+

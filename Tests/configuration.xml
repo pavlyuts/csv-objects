@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!--
+ Profile-based multistring CSV entity handling library
+
+ (c) Alexey Pavlyuts
+-->
+
+<!-- see http://www.phpunit.de/wiki/Documentation -->
+<!--phpunit bootstrap="/path/to/bootstrap.php"
+         colors="false"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         stopOnFailure="true">
+</phpunit-->
+
+<phpunit colors="false">
+    <filter>
+        <whitelist processUncoveredFilesFromWhitelist="true">
+            <directory suffix=".php">C:\Users\alexe\Documents\Sources\csv-objects\CSVObjects\</directory>
+        </whitelist>
+    </filter>
+</phpunit>
