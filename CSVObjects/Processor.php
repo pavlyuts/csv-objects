@@ -87,7 +87,7 @@ class Processor {
                     continue;
                 default:
                     $fieldClass = $this->profile->getFieldClass($fieldName);
-                    $result[$fieldName] = $fieldClass::exportField($row[$fieldName], $fieldProfile);
+                    $result[$fieldName] = $fieldClass::exportField($row[$fieldName] ?? null, $fieldProfile);
             }
         }
         return $result;
