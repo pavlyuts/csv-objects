@@ -27,5 +27,8 @@
         "psr-4": {
             "CSVTests\\": "Tests"
         }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit --configuration Tests/configuration.xml Tests --coverage-text"
     }
 }
