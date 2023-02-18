@@ -21,6 +21,7 @@ class Collection extends SKArray {
     protected $processor;
 
     public function __construct(Profile $profile) {
+        parent::__construct();
         $this->profile = $profile;
         $this->processor = new Processor($this->profile);
         return $this;
