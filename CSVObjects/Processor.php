@@ -81,10 +81,10 @@ class Processor {
             switch ($fieldProfile[Profile::OPT_TYPE] ?? Profile::TYPE_TEXT) {
                 case Profile::TYPE_ROWCOUNT:
                     $result[$fieldName] = $rowCount;
-                    continue;
+                    break;
                 case Profile::TYPE_ROWINDEX:
                     $result[$fieldName] = $row[$fieldName] ?? $rowIndex++;
-                    continue;
+                    break;
                 default:
                     $fieldClass = $this->profile->getFieldClass($fieldName);
                     $result[$fieldName] = $fieldClass::exportField($row[$fieldName] ?? null, $fieldProfile);
